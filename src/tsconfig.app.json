@@ -3,6 +3,9 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
+    "paths": {
+      "@stomp/ng2-stompjs": ["../node_modules/@stomp/ng2-stompjs"]
+    },
     "module": "es2015",
     "types": []
   },
