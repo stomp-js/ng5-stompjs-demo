@@ -184,9 +184,21 @@
   dependencies:
     "@stomp/stompjs" "^3.1.1"
 
+"@stomp/ng2-stompjs@https://github.com/stomp-js/ng2-stompjs#angular5":
+  version "0.4.2"
+  resolved "https://github.com/stomp-js/ng2-stompjs#0641ae9d99e668a98fc403a8ffee55dd9c98c385"
+  dependencies:
+    "@stomp/stompjs" "https://github.com/stomp-js/stomp-websocket#v4"
+
 "@stomp/stompjs@^3.1.1":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@stomp/stompjs/-/stompjs-3.1.2.tgz#5c26dbb3ce8a61a2d22338eadd222a0b26c9337d"
+  optionalDependencies:
+    websocket "^1.0.24"
+
+"@stomp/stompjs@https://github.com/stomp-js/stomp-websocket#v4":
+  version "3.1.2"
+  resolved "https://github.com/stomp-js/stomp-websocket#0263954fda6b7061c889f335d6eed488b148baa3"
   optionalDependencies:
     websocket "^1.0.24"
 
