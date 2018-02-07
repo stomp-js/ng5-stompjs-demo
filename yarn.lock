@@ -184,7 +184,7 @@
   dependencies:
     "@stomp/stompjs" "^3.1.1"
 
-"@stomp/ng2-stompjs@https://github.com/stomp-js/ng2-stompjs#angular5":
+"@stomp/ng2-stompjs@https://github.com/stomp-js/ng2-stompjs":
   version "0.4.2"
   resolved "https://github.com/stomp-js/ng2-stompjs#0641ae9d99e668a98fc403a8ffee55dd9c98c385"
   dependencies:
